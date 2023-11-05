@@ -22,17 +22,17 @@ function Header ()
 
       <div className="nav__item"></div>
       <span className="nav__itemlineone"> Hello Guest</span>
-                <span className="nav__itemlineone"> Sign in</span>
+                <span className="nav__itemlineTwo"> Sign in</span>
                 </div>
 
 
       <div className="nav__item">
-      <span className="nav__itemlineone"> Your</span>
-                <span className="nav__itemlineone"> Shop</span>
+      <span className="nav__itemlineone "> Your</span>
+                <span className="nav__itemlineTwo "> Shop</span>
                 </div>
 
-      <div className="nav__item">
-      <ShoppingBasketIcon className='itemBasket'/>
+      <div className="nav__itemBasket">
+      <ShoppingBasketIcon />
       <span className="nav__itemlineTwo nav__basketCount" > 0 </span>
             </div>
             </div>

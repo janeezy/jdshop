@@ -1,6 +1,18 @@
 .App {
   text-align: center;
+      color: white;
+
+
 }
+
+
+.nav__itemlineone {
+  display: flex;
+     justify-content: space-evenly;
+     margin: 3px ;
+     align-self: auto;
+}
+
 
 .App-logo {
   height: 40vmin;
