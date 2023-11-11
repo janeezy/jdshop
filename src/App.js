@@ -12,7 +12,7 @@ function App() {
         <Header /> {/* Header moved outside Routes if it's common across all routes */}
         <Routes>
           <Route path='/checkout' element={<Checkout />} />
-          <Route path='/Home' element={<Home />} />
+          <Route path='/' element={<Home />} />
         </Routes>
       </Router>
     </div>
