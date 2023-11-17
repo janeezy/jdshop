@@ -9,9 +9,9 @@ function Header ()
 {
     return (
         <div className='header'>
-            <Link to=':/' style={ { textDecoration: 'none' } }>
+            <Link to= './' style={ { textDecoration:'none' } }>
                 <div className='header__logo'>
-      <         ShopIcon className='header__logoImage'                fontSize='large' />
+              < ShopIcon className='header__logoImage' fontSize='large' />
                 <h2 className='header__logoTitle'>Jdshop</h2>
                 </div>
             </Link>
