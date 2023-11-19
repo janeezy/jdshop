@@ -5,6 +5,7 @@ import Product from './Product'; // Ensure this is used or remove if it's not ne
 import Checkout from './Checkout';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+
 function App() {
   return (
     <div className='App'>
