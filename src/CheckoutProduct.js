@@ -2,7 +2,7 @@ import React from 'react';
 import './CheckoutProduct.css';
 import { Title } from '@mui/icons-material';
 
-function checkoutProduct ()
+function CheckoutProduct ()
 {
     return (
 
@@ -14,17 +14,21 @@ function checkoutProduct ()
                 <p className="checkoutProduct__title">{Title}
 
                 </p>
+
+
                 <p className="checkoutProduct__price">
                     <small>$</small>
-                    <strong>49</strong>
+                    <strong>60$</strong>
 
                 </p>
+
+
                 <div className="checkoutProduct__rating">
-                  {/* {Array(rating) */}
-                  {/* .fill() */}
-                   {/* .map((_, i) => (  */}
-                   {/* <p>⭐</p> */}
-                  {/* ))} */}
+                  {Array(rating)
+                  .fill()
+                   .map((_, i) => (
+                   <p>⭐</p>
+                  ))}
                 </div>
                 <button> Remove from Basket</button>
             </div>
@@ -33,4 +37,4 @@ function checkoutProduct ()
 )
 }
 
-export default checkoutProduct
+export default CheckoutProduct

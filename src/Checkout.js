@@ -1,6 +1,7 @@
 import React from 'react';
 import './Checkout.css';
 import './CheckoutProduct';
+import CheckoutProduct from './CheckoutProduct';
 
 
 function Checkout ()
@@ -14,7 +15,7 @@ function Checkout ()
                     <h2 className="checkout__title">
                         Your shopping Basket
                     </h2>
-                    <checkoutProduct />
+                    {CheckoutProduct}
 
                 </div>
             </div>
