@@ -2,6 +2,7 @@ import React from 'react';
 import './CheckoutProduct.css';
 import { Title } from '@mui/icons-material';
 
+
 function CheckoutProduct ()
 {
     return (
@@ -10,7 +11,7 @@ function CheckoutProduct ()
             <img src="https://images-na.ssl-images-amazon.com/images/I/71mEsHyzSCL._SL1000_.jpg" alt="" className="checkoutProduct__image" />
 
 
-            <div className="product__info">
+            <div className="checkoutProduct__info">
                 <p className="checkoutProduct__title">{Title}
 
                 </p>
@@ -23,12 +24,12 @@ function CheckoutProduct ()
                 </p>
 
 
-                <div className="checkoutProduct__rating">
-                  {Array(rating)
-                  .fill()
-                   .map((_, i) => (
-                   <p>⭐</p>
-                  ))}
+                <div className="checkoutProduct__rating">⭐⭐⭐⭐⭐
+                  {/* {Array(rating) */}
+                {/* //   .fill() */}
+                {/* //    .map((_, i) => ( */}
+                {/* //    <p>⭐</p> */}
+                {/* //   ))} */}
                 </div>
                 <button> Remove from Basket</button>
             </div>
